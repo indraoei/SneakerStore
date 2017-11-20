@@ -1,0 +1,76 @@
+<div style="margin-top: 20px;">
+        <!-- HEADER -->
+        <div class="container-fluid">
+            <!-- LOGO -->
+            <div class="" id="logo" style="float: left;">
+                <b>The</b><br>
+                <b>Sneaker</b><br>
+                <b>Store</b>
+            </div>
+            <!-- SEARCH BOX & MENU -->
+            <div class="" style="float: right; margin-top: 20px;">
+                <!-- SEARCH BOX -->
+                <div id="">
+                    <input type="search" placeholder="Type to search..." id="search-box">
+                    <!-- SEARCH BUTTON -->
+                    <button class="btn btn-default" type="submit" style="border: none;" id="search-button">
+                        <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                    <!-- CART BUTTON -->
+                    <button class="btn btn-default" type="submit" style="border: none;" id="cart-button">
+                            <i class="glyphicon glyphicon-shopping-cart"></i>
+                    </button>
+                </div>
+                <!-- MENU -->
+                <div id="menu">
+                    <a href="">SHOP</a>
+                    <a href="">ABOUT</a>
+                    <a href="">BLOG</a>
+                    <a href="">CONTACT</a>
+                    <a href="/sign-in">LOGIN</a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- CONTENT -->
+        <div class="container-fluid">
+            <!-- HOME PAGE -->
+            <div id="home-page">
+                <!-- PRODUCT IMAGE -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div *ngFor="let p of productList">
+                        <a href="" routerLink="/productdetails/{{ p.id }}">
+                            <ul class="nav navbar-nav" id="product-image">
+                                <li>
+                                <img src="http://localhost:8000{{ p.image }}" alt="" style="width:350px; height:280px; border: 2px solid lightgrey; object-fit:contain"><br>
+                                </li>
+                                <!-- PRODUCT DESCRIPTION -->
+                                <div id="product-desc">
+                                <li>{{ p.name }} <br></li>
+                                <li>{{ p.unit_price }}</li>
+                                </div>
+                            </ul>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- FOOTER -->
+        <div class="container-fluid col-xs-12 col-sm-12 col-md-12" style="margin-top: 60px;">
+            <!-- SOCIAL MEDIA -->
+            <div id="soc-med">  
+                <div class="sosmed-img">
+                    <!-- INSTAGRAM -->
+                    <a href=""><img src="../assets/img/instagram.png" alt="instagram" style="width: 40px;"></a>
+                    <!-- TWITTER -->
+                    <a href=""><img src="../assets/img/twitter.png" alt="twitter" style="width: 40px;"></a>
+                    <!-- FACEBOOK -->
+                    <a href=""><img src="../assets/img/facebook.png" alt="facebook" style="width: 40px;"></a>
+                </div>
+                <h3>Check out our Social Media</h3>
+                <h4>For the newest update</h4>
+                <h5>&copy; 2017 <b>The Sneaker Store</b></h5>
+            </div>
+        </div>
+    </div>

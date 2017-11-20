@@ -1,0 +1,45 @@
+Product
+========
+-ID(PK)
+-Name
+-color
+-unit_price
+-description
+
+Product_Detail
+==============
+-id
+-product_id (FK)
+-size
+-stock
+
+Product_iamge
+=============
+-id
+-product_id (FK)
+-image
+-default
+
+Cart
+====
+-id
+-transaction_date
+-user_id (FK)
+-total_price
+-shipping
+
+Cart_Details
+============
+-id
+-cart_id (FK)
+-product_detail_id (FK)
+-qty
+-unit_price
+
+User
+====
+-id
+-name
+-address
+-email
+-phone_number

@@ -1,0 +1,6 @@
+<div *ngIf="loading; else elseBlock">
+  Loading ...
+</div>
+<ng-template #elseBlock>
+  <img src="http://localhost:8000{{ product.product_images[0].image }}" alt="">
+</ng-template>

@@ -1,0 +1,72 @@
+#product-image
+{
+    margin-left: 40px;
+}
+#product-desc
+{
+    background-color: #3D3B3B;
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    clear: both;
+    float: left;
+    width: 200px;
+    margin-left: 75px;
+    margin-top: -20px;
+    position: relative;
+}
+#logo
+{
+    font-size: 2em;
+    border-bottom: 2px black solid;
+    font-family: Verdana, Geneva, sans-serif
+}
+#search-box
+{   
+    border: none;
+    border-bottom: 1px solid black;
+    padding-left: 0px;
+    padding-right: 80px; 
+}
+.glyphicon
+{
+    font-size: 20px;
+}
+a
+{
+    color: black;
+    font-weight: bold;
+}
+#menu a 
+{
+    margin-right: 10px;
+}
+#soc-med
+{
+    margin-bottom: 40px;
+}
+.sosmed-img{
+    width: 100%;
+    text-align: center;
+}
+#soc-med h3
+{
+    color: black;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center
+}
+#soc-med h4
+{
+    color: black;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center
+}
+#soc-med h5
+{
+    text-align: center
+}
+#home-page
+{
+    margin-top: 60px;
+}

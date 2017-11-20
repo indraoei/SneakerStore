@@ -1,0 +1,11 @@
+<div class="col-xs-12 col-sm-12 col-md-12" style="margin-top: 150px;">
+    <h3>Sneaker Store</h3>
+    <div id="login">
+      <input type="email" placeholder="E-mail" class="form-control" [(ngModel)]="email"><p></p>
+      <input type="password" placeholder="Password"class="form-control" [(ngModel)]="password"><p></p>
+      <input type="checkbox" name="" id=""> Remember Me <p></p>
+      <button class="btn btn-default" style="width: 200px;" type="submit" (click)="SignIn()">Log In</button> <p></p>
+      don't have an account? <a href="/sign-up">Sign Up</a>
+      <button class="btn btn-default" style="width: 200px;" type="submit" (click)="redirectToProduct()">Redirect To Product</button>
+    </div>
+</div>

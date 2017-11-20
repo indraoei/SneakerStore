@@ -1,0 +1,81 @@
+#logo
+{
+    border-bottom: 3px black solid;
+    float: left;
+    font-size: 2em;
+    font-family: Verdana, Geneva, sans-serif
+}
+#search-box
+{   
+    margin-top: 30px;
+    float: right;
+    border-radius: 2px;
+}
+#search-button
+{
+    float: right;
+    clear: both;
+    margin-top: -92px;
+    margin-right: -38px;
+}
+#cart-button
+{
+    float: right;
+    clear: both;
+    margin-top: -92px;
+    margin-right: -82px;
+}
+.form-control
+{
+    padding: 6px;
+    padding-left: 1px;
+    padding-right: 200px;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid black !important;
+    border-radius: 0px;
+}
+.glyphicon
+{
+    font-size: 20px;
+}
+a
+{
+    color: black;
+    font-weight: bold;
+    margin-top: -48px;
+    margin-right: -1px;
+}
+#soc-med
+{
+    margin-bottom: 40px;
+}
+#soc-med img
+{
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 520px;
+    margin-right: -510px;
+    margin-bottom: 
+}
+#soc-med h3
+{
+    color: black;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center
+}
+#soc-med h4
+{
+    color: black;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center
+}
+#soc-med h5
+{
+    text-align: center
+}
+#home-page
+{
+    margin-top: 60px;
+}
